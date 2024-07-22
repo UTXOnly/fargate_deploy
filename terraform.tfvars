@@ -5,6 +5,7 @@ execution_role_arn = "arn:aws:iam::<YOUR_ACCOUNT_ID>:role/ecsTaskExecutionRole"
 task_role_arn      = "arn:aws:iam::<YOUR_ACCOUNT_ID>:role/ecsTaskExecutionRole"
 aws_ecs_cluster = "your-name-cluster"
 aws_ecs_service = "your-name-service"
+aws_region = "us-east-1" #If no value set defaults to us-east-1
 
 # Datadog Configuration
 dd_api_key = "your-api-key"
