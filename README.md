@@ -1,5 +1,10 @@
 # fargate_deploy
-A terraform script to deploy the Datadog agent as a sidecar container in a ECS Fargate task
+A simple terraform script to deploy the Datadog agent as a sidecar container in a ECS Fargate task
+
+This deploys:
+* `busybox` container that emits logs
+* AWS FireLens/fluentbit log driver
+* Datadog agent sidecar container
 
 ## Prerequisites
 * [aws-cli](https://github.com/aws/aws-cli)
